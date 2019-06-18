@@ -1,9 +1,9 @@
-# how html and css rendering works
+# How HTML and CSS rendering works
 
 **Rendering Engine** – this takes HTML code and interprets it into what you see visually.
 The rendering engine has a very important job as it displays what you see on your screen. It communicates with the networking layer of the browser to grab HTML code and other items passed from a remote server. 
 
-## Then the browser takes the following steps:
+### The browser further takes the following steps:
 * Process HTML markup and build the DOM tree.
 * Process CSS markup and build the CSSOM tree.
 * Combine the DOM and CSSOM into a render tree.
