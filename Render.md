@@ -38,7 +38,7 @@ It is a tree which contains just the visible elements on the screen such as heig
 1. Starting at the root of the DOM tree, traverse each visible node.
 
 * Some nodes are not visible (for example, script tags, meta tags, and so on), and are omitted since they are not reflected in the rendered output.
-* Some nodes are hidden via CSS and are also omitted from the render tree; for example, the span node---in the example above---is missing from the render tree because we have an explicit rule that sets the "display: none" property on it.
+* Some nodes are hidden via CSS and are also omitted from the render tree; for example, in case we have an explicit rule that sets the "display: none" property on it.
 2. For each visible node, find the appropriate matching CSSOM rules and apply them.
 
 3. Emit visible nodes with content and their computed styles.
