@@ -10,7 +10,6 @@ The rendering engine has a very important job as it displays what you see on you
 * Run layout on the render tree to compute geometry of each node.
 * Paint the individual nodes to the screen.
 
-1. From 
 ### 1. Parsing HTML and creating the DOM Tree
 HTML is a hierarchal structure whose elements are parsed and turned into a “DOM tree” by the rendering engine. The browser creates the Document Object Model. It is a tree of objects. Each HTML tag is a branch starting at the root element.
 
@@ -23,7 +22,7 @@ The tokens are then converted into nodes.
 
 The nodes are then linked in a tree data structure known as the DOM.
 
-### 1. Parsing CSS and creating the CSSOM Tree
+### 2. Parsing CSS and creating the CSSOM Tree
 #### CSSOM Tree:
 After the browser creates the DOM tree, it starts creating the CSSOM which Stands for CSS Object Model. It is basically a “map” of the CSS style which you can find on a web page. It is like the DOM but for CSS rules.
 
