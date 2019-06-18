@@ -1,7 +1,7 @@
-# UrlWorkingInBrowser
+# What happens when you type a URL in browser
 This is a basic understanding on what happens when you type in a URL in browser and how the information is transferred to our computers through internet. A lot of stuff happens under the hood in the network to get an HTTP request from the browser to the server and then an HTTP response from the server back to the browser.
 
-Step by steps process:-
+## Step by step process:-
 
 ### 1. Enter URL in address bar
 When you press any key, the browser receives the event and tries to auto-complete. Depending on your browser's algorithm which is based on search history, bookmarks, cookies, and popular searches from the internet and if you are in private/incognito mode or not various suggestions will be presented to you in the dropbox below the URL bar. Suggestions keep on coming with every key pressed.
