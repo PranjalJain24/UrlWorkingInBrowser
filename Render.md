@@ -10,7 +10,7 @@ The rendering engine has a very important job as it displays what you see on you
 * Run layout on the render tree to compute geometry of each node.
 * Paint the individual nodes to the screen.
 
-
+1. From 
 ### 1. Parsing HTML and creating the DOM Tree
 HTML is a hierarchal structure whose elements are parsed and turned into a “DOM tree” by the rendering engine. The browser creates the Document Object Model. It is a tree of objects. Each HTML tag is a branch starting at the root element.
 
