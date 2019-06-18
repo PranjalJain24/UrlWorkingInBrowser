@@ -23,7 +23,7 @@ The tokens are then converted into nodes.
 
 The nodes are then linked in a tree data structure known as the DOM.
 
-### 2. Parsing CSS and creating the CSSOM Tree
+### 1. Parsing CSS and creating the CSSOM Tree
 #### CSSOM Tree:
 After the browser creates the DOM tree, it starts creating the CSSOM which Stands for CSS Object Model. It is basically a “map” of the CSS style which you can find on a web page. It is like the DOM but for CSS rules.
 
