@@ -31,7 +31,7 @@ To transfer data TCP connection should be established by TCP/IP three-way handsh
 ### 6. The browser sends an HTTP request to the web server.
 Now you need to transfer data. The browser will send a GET request asking for maps.google.com web page. If you’re entering credentials or submitting a form this could be a POST request. 
 
-### 6. The server handles the request.
+### 7. The server handles the request.
 Request from the browser is sent to request handler by web server to read and generate a response. The request handler is a program that reads the request, its’ headers, and cookies to check what is being requested and also update the information on the server if needed. Then it will assemble a response in a particular format (JSON, XML, HTML).
 
 The server breaks down the request to the following parameters:
@@ -39,8 +39,8 @@ The server breaks down the request to the following parameters:
 * Domain, in this case - example.com.
 * Requested path/page, in this case - / (as no specific path/page was requested, / is the default path).
 
-### 7. The server sends out an HTTP response
+### 8. The server sends out an HTTP response
 The server response contains the web page you requested as well as the status code, compression type (Content-Encoding), how to cache the page (Cache-Control), any cookies to set, privacy information, etc.
 
-### 8. The browser displays the HTML content 
+### 9. The browser displays the HTML content 
 It will render the bare bone HTML skeleton. Then it will check the HTML tags and sends out GET requests for additional elements on the web page, such as images, CSS stylesheets, JavaScript files etc. These static files are cached by the browser so it doesn’t have to fetch them again the next time you visit the page. At the end, you’ll see the page appearing on your browser.
